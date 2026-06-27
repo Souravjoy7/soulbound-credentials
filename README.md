@@ -4,17 +4,16 @@
 
 Soulbound Credentials enables the issuance and verification of non-transferable digital credentials on the blockchain. Using zero-knowledge proofs, holders can prove ownership and attribute validity without revealing underlying personal data. Credentials are permanently bound to wallet addresses and cannot be bought, sold, or transferred.
 
-## On-Chain Proof
+## On-Chain Proof (Deployed & Verified)
 
-| Contract | Address |
-|----------|---------|
-| SoulboundCredential | `TBD` |
-| ZKVerifier | `TBD` |
-| CredentialRegistry | `TBD` |
-| AttributeOracle | `TBD` |
+### Base Sepolia (OP Stack)
 
-Network: Ethereum Mainnet (L2 deployment planned)
+| Contract | Address | Tx Hash |
+|----------|---------|--------|
+| **SoulboundToken** | [`0x473B...f78A`](https://sepolia.basescan.org/address/0x473B60ceE81EEa934cAF8B83c75EC80f5d91f78A) | [`0xd773...6ee6`](https://sepolia.basescan.org/tx/0xd773ca916624f4f9fbde9a3a84081aa9d1badaced187831f388070f3170a6ee6) |
+| **CredentialRegistry** | [`0xdD56...F14d`](https://sepolia.basescan.org/address/0xdD56cC6795e7B4088AAB358831400244B066F14d) | [`0xbef8...92c4`](https://sepolia.basescan.org/tx/0xbef8a8e2d47e344c4f1fa957bfe2f70e946cc4428db279c56bc68ba55e5992c4) |
 
+**Deployer**: [`0x7F75...C739`](https://sepolia.basescan.org/address/0x7F75bfAfeD5c96584774c7F2Bc33F3bF887BC739) | **Network**: Base Sepolia
 ## How It Works
 
 1. **Issuance**: Trusted issuers mint soulbound credentials to a recipient's wallet address. Each credential encodes attributes (e.g., identity, certifications, memberships) as on-chain data.
